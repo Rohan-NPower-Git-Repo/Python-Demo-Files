@@ -9,25 +9,29 @@ def say_hello():
     print( '\t Hello Everyone!' )
 
 # Defined the method but won't get an O/P until we call the function 
-say_hello()
+# say_hello()
 
-print( 'Functions with parameters and Conditional:' )
+# Customize Code and O/P as per requirement
+print( 'Functions with parameters:' )
+def greetUser( msg ):
+    print( '\t Parameter passed: ', msg )
+
+greetUser( 'Bonjour!' )
+greetUser( "¡Buenos días!" )
+
 # Conditional:
 # Make decision based on Condition
-def greet_user( lang='en' ):
-    # If lang is fr Greet in French
-    if lang == 'fr':
-        print( '\t', lang, ' : ', 'Bonjour!' )
-    # If lang is es Greet in Spanish
-    elif lang == 'es':
-        print( '\t', lang, ' : ', "¡Buenos días!" )
-    # else if nothing passed assume it's in English
-    else:
-        print( '\t', lang, ' : ', 'Good Morning!' )
 
-greet_user( 'es' )
-greet_user()
-greet_user( 'fr' )
+print('\n Conditional Example:')
+ageList = [ 30, 15, -27 ]
+
+for age in ageList:
+    if age >= 18:
+        print( "Person with age : ", age, " is Allowed to Vote" )
+    elif age < 0:
+        print( "Person with age : ", age, ' is Not Even born yet!' )
+    else:
+        print( "Person with age : ", age, " is Not Allowed to Vote " )
 
 # Loops
 dayList = [ 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat' ]
@@ -54,13 +58,18 @@ for day in dayList:
 
 
 # Extra Conditional Example
-print('\n Conditional Example:')
-ageList = [ 30, 15, -27 ]
-
-for age in ageList:
-    if age >= 18:
-        print( "Person with age : ", age, " is Allowed to Vote" )
-    elif age < 0:
-        print( "Person with age : ", age, ' is Not Even born yet!' )
+print( 'Functions with parameters and Conditional:' )
+def greet_user( lang='en' ):
+    # If lang is fr Greet in French
+    if lang == 'fr':
+        print( '\t', lang, ' : ', 'Bonjour!' )
+    # If lang is es Greet in Spanish
+    elif lang == 'es':
+        print( '\t', lang, ' : ', "¡Buenos días!" )
+    # else if nothing passed assume it's in English
     else:
-        print( "Person with age : ", age, " is Not Allowed to Vote " )
+        print( '\t', lang, ' : ', 'Good Morning!' )
+
+greet_user( 'es' )
+greet_user()
+greet_user( 'fr' )
