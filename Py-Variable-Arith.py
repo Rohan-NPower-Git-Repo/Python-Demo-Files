@@ -1,3 +1,5 @@
+# Install Python - Blog: https://www.wikihow.com/Install-Python
+
 # Python Comment starts with a # and comments are never executed they are used for information
 
 # Variable is nothing but a place to store your data
@@ -20,8 +22,18 @@ isValid = True
 print( 'Value : ', isValid, '\t Type : ', type(isValid) )
 
 # Basic Calculator - Arithmetic Operations
-num1 = 20
-num2 = 7
+# Take user Input in String Format with input(msg)
+num1 = input( 'Enter Number 1: ' )
+num2 = input( 'Enter Number 2: ' )
+# num1 = 20
+# num2 = 7
+
+# Since I/P is String this is String Concatenation not Addition
+print( 'Not Addition of Numbers but Concatenation = ', num1+num2) 
+
+# let's typecast[Convert] to Integer
+num1 = int( num1 )
+num2 = int( num2 )
 
 print( 'Basic Calculator:' )
 print( '\t Addition = ', num1 + num2 )

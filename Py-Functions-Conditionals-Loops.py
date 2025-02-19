@@ -33,7 +33,7 @@ for age in ageList:
     else:
         print( "Person with age : ", age, " is Not Allowed to Vote " )
 
-# Loops
+# Loops - Perform the same task over and over again
 dayList = [ 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat' ]
 print( 'Original  List : ',  dayList ) 
 print( 'Built-In Function:' )
