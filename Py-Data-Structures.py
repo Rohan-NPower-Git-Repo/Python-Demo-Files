@@ -10,6 +10,8 @@ print( 'Value : ', listEg, '\t Type : ', type(listEg) )
 tupleEg = tuple( listEg )
 print( 'Value : ', tupleEg, '\t Type : ', type(tupleEg) )
 
+# tupleEg.count() and tupleEg.index() are the only methods present in Tuples no add() or append()
+
 # If we want to add Values to tuples - Workaround - Create a new Tuple and Concatenate 
 temp = ('I', 'O')
 tupleEg = tupleEg + temp
