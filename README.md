@@ -1,7 +1,7 @@
 # Python-Demo-Files
 ## A Repo containing some basic Python Code files
 
-### Thank you WikiHow and Canadian Conding YT Channel
+### Thank you WikiHow and CanadianCoding YT Channel
 
 1. Installing Python on Windows, MacOS and Linux - [WikiHow](https://www.wikihow.com/Install-Python)
 2. Install Python - MacOS - [YT-MacOS](https://www.youtube.com/watch?v=3-sPfR4JEQ8)
