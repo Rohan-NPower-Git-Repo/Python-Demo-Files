@@ -40,6 +40,7 @@ print( '\t Addition = ', num1 + num2 )
 print( '\t Subtraction = ', num1 - num2 )
 print( '\t Multiplication = ', num1 * num2 )
 print( '\t Division = ', num1 / num2 )
+print( '\t Division Rounded to 2 Decimal Places = ', round( (num1/num2), 2 ) )
 print( '\t Remainder = ', num1 % num2 )
 print( '\t Power = ', num1 ** num2 )
 # the floor division // rounds the result down to the nearest whole number 
