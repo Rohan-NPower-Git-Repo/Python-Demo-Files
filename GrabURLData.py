@@ -13,4 +13,6 @@ for user in data:
     print( '\t Email: ', user['email'] )
     print( '\t Phone: ', user['phone'] )
     print( '\t City: ', user['address']['city'] )
+    print( '\t WebSite : ', user['website'] )
+    print( '\t Company Name: ', user['company']['name'] )
        
